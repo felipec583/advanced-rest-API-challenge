@@ -1,3 +1,5 @@
+import { errorCont } from "../types";
+
 class RequestError extends Error {
   constructor(
     public statusCode: number,
@@ -12,10 +14,7 @@ class RequestError extends Error {
   }
 }
 
-interface errorCont {
-  message: string;
-  status: number;
-}
+
 
 class PgError extends RequestError {
   private readonly psqlErrors: Map<string | undefined, errorCont> = new Map([

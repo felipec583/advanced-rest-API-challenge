@@ -1,5 +1,5 @@
 import format from "pg-format";
-import { QueryFilters, Fields, IReqQuery, FilterParams } from "../types";
+import { IReqQuery } from "../types";
 
 const fieldDictionary: IReqQuery = {
   precio_max: "precio <=",
@@ -7,12 +7,19 @@ const fieldDictionary: IReqQuery = {
   metal: " metal =",
   categoria: "categoria =",
 };
+
+
 const dictionaryKeys = Object.keys(fieldDictionary);
+
+
 type test = string | number;
+
+
 const createFilteredQuery = async (entity: string, filters: IReqQuery) => {
   const table = entity.toLowerCase();
   let query = format("SELECT * FROM %I WHERE 1 = 1", table);
 
+  //Comparación del diccionario con el objeto recibido del req.query
   const receivedFilters = Object.keys(filters).filter((filterKey) =>
     dictionaryKeys.includes(filterKey)
   );

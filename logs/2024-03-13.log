@@ -1,0 +1,64 @@
+
+Started GET /joyas?page=1 for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:27:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 174 ms Request ID: [97cfeeae-307c-4e4f-8754-7da791c0e494]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:27:02 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [19fedf33-7b22-4d07-8c07-cd136b1f7a8d]
+
+Started GET /joyas?page=1 for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:35:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 33 ms Request ID: [50f7b5c0-fd64-4fd2-88c6-d1b72cf32c21]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:35:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [aadd92bf-f45c-482b-a449-4a1a8ab011d7]
+
+Started GET /joyas/filtros?metal=plata for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:35:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 41 ms Request ID: [09cd0edc-ad26-4f92-a771-e602cc1dcc08]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:35:53 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [ae55cac3-5f9f-44c6-ae34-3afe2f94379e]
+
+Started GET /joyas/filtros?metal=plata for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:39:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 49 ms Request ID: [05346e99-9a21-498d-b7ae-dda60b83329f]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:39:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 2 ms Request ID: [b6c7096f-3608-4dd5-8804-347f8fc37ce6]
+
+Started GET /joyas/filtros?metal=plata for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 57 ms Request ID: [4e6b0a42-453c-4d1a-bb7a-ea013620d88f]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 4 ms Request ID: [ad6f6868-b9f0-4b5f-afb1-c2bfa9228f9e]
+
+Started GET /joyas/filtros?metal=plata for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 4 ms Request ID: [514f06eb-79b1-4678-8e7a-52fab8abf837]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 3 ms Request ID: [d9a40063-f11b-41a7-9a76-c08025f0e534]
+
+Started GET /joyas/filtros?metal=plata&precio_min=25000 for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 49 ms Request ID: [8e7c8f50-10f7-4f92-85a0-0789e2efad77]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:41:57 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 2 ms Request ID: [93717abc-e3ee-4d68-aff0-bf0dd1d9adf6]
+
+Started GET /joyas/filtros?metal=plata&precio_min=25000 for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:49:19 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 54 ms Request ID: [f2b46722-3517-411a-96dc-2e3d4f6465dc]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Wed Mar 13 2024 20:49:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 4 ms Request ID: [b9e5c636-7207-4c5a-addb-bda7ceef803b]

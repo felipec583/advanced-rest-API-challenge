@@ -8,7 +8,6 @@ const getLimited = async ({ limits = 3, page = 1, order_by = "id asc" }) => {
     const sqlQuery = {
         text: format("SELECT * from inventario ORDER BY %s %s LIMIT %s OFFSET %s", field, order, limits, offset),
     };
-    console.log(`PAGE ${page}, QUERY ${sqlQuery.text}`);
     const { rows } = await pool.query(sqlQuery);
     return rows;
 };
@@ -18,7 +17,6 @@ const getFilered = async ({ ...filter }) => {
         text: query,
         values: values,
     };
-    console.log("your bobi", sqlQuery);
     const { rows } = await pool.query(sqlQuery);
     return rows;
 };

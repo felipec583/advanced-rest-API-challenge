@@ -1,0 +1,58 @@
+
+Started GET /joyas?page=1&limits=2 for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:46:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 48 ms Request ID: [8f896426-7016-47de-9bbd-6c16a0e70373]
+
+Started GET /joyas?page=2 for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 35 ms Request ID: [230c1905-b2d7-45b3-9603-a6320ce582a3]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:11 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 6 ms Request ID: [94368cd0-ae2b-4e70-91e1-ee5ab0a8800d]
+
+Started GET /joyas?page=2 for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 32 ms Request ID: [564aefd1-6005-438a-8cdb-28c8e8bdb5d4]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:31 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 2 ms Request ID: [af0434df-a8d1-463b-ba42-937ac47414f4]
+
+Started GET /joyas?page=3&limits=2& for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 28 ms Request ID: [995610bc-599f-4409-8e12-a6bdb9b610cd]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:45 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 3 ms Request ID: [3642b519-769d-41ed-95fb-dadf1795338a]
+
+Started GET /joyas?page=2 for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 3 ms Request ID: [6db41700-f2f2-4c7b-b3d2-04772ff4359c]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:48:54 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 3 ms Request ID: [823af445-3a86-4446-9526-a6082e383931]
+
+Started GET /joyas for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:49:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 3 ms Request ID: [63d85b49-b39d-4ada-a573-d57abc152627]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 19:49:00 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 204 message:  Time response: 2 ms Request ID: [ac70f159-28dc-4029-81da-9dc433b6eed5]
+
+Started GET /joyas for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 20:26:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 167 ms Request ID: [8c3d18a0-7763-446e-be39-fe8ad179af75]
+
+Started GET /favicon.ico for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 20:26:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Started GET /joyas for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 20:26:14 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 44 ms Request ID: [265ffcd0-9ac5-42ff-867e-57fc7c4ebc62]
+
+Started GET /joyas for :: ::ffff:127.0.0.1 at Thu Mar 14 2024 20:26:21 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 50 ms Request ID: [9d73f41c-3bba-4cbf-84d9-9debb960a958]

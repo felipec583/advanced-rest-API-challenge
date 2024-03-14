@@ -11,7 +11,7 @@ type ErrorHandlerT = (
   req: Request,
   res: Response,
   next: NextFunction
-) => void | Promise<void>;
+) => Response<any, Record<string, any>> | undefined;
 
 type Middleware = (
   req: Request,
@@ -46,6 +46,10 @@ interface QueryFilters {
   value: string | number;
 }
 
+interface errorCont {
+  message: string;
+  status: number;
+}
 export {
   IReqQuery,
   Middleware,
@@ -55,4 +59,5 @@ export {
   Fields,
   QueryFilters,
   FilterParams,
+  errorCont,
 };

@@ -3,11 +3,12 @@ import { RequestError, createPgError } from "../helpers/error.js";
 
 const errorHandler: ErrorHandlerT = (err, req, res, next) => {
   if (err instanceof RequestError) {
-    res.status(err.statusCode).json({ Message: err.message });
+    return res.status(err.statusCode).send({ Message: err.message });
+  } else {
+    const error = createPgError(500, "");
+    error.checkCode(err.code);
+    res.status(error.statusCode).send({ Message: error.message });
   }
-  const error = createPgError(500, "");
-  error.checkCode(err.code);
-  res.status(error.statusCode).json({ Message: error.message });
 
   next();
 };

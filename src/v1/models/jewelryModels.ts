@@ -3,6 +3,7 @@ import format from "pg-format";
 import { FilterParams, IReqQuery } from "../types.js";
 import createFilteredQuery from "../helpers/filter.js";
 import { RequestError } from "../helpers/error.js";
+
 const getLimited = async ({ limits = 3, page = 1, order_by = "id asc" }) => {
   let offset = (page - 1) * limits;
 
@@ -17,7 +18,6 @@ const getLimited = async ({ limits = 3, page = 1, order_by = "id asc" }) => {
       offset
     ),
   };
-  console.log(`PAGE ${page}, QUERY ${sqlQuery.text}`);
   const { rows } = await pool.query(sqlQuery);
   return rows;
 };
@@ -28,8 +28,6 @@ const getFilered = async ({ ...filter }: FilterParams) => {
     text: query,
     values: values,
   };
-  console.log("your bobi", sqlQuery);
-
   const { rows } = await pool.query(sqlQuery);
   return rows;
 };
