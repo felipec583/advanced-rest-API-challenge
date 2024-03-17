@@ -1,0 +1,14 @@
+ADL - Modulo 7 - Desafio 5: Desarrollo de API REST para la tienda de joyas My Precious.
+
+Esta app permitirá:
+1. Limitar los recursos obtenidos 
+2. Filtrar recursos por campos 
+3. Paginación 
+4. Ordenamiento 
+5. Estructura de datos HATEOAS
+
+NOTA:
+Para compilar el proyecto nuevamente después de clonarlo desde GitHub, tener en consideración:
+
+1. Si al intentar compilar el proyecto, encuentras un error relacionado con un archivo que falta en `node_modules`, es posible que necesites agregar manualmente ese archivo en la siguiente ruta dentro del directorio: `node_modules/logger-express`
+2. El archivo se encuentra en `src/types/index.d.ts`

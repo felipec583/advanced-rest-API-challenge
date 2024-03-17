@@ -1,5 +1,5 @@
 import format from "pg-format";
-import { IReqQuery } from "../types";
+import { IReqQuery } from "../types/types";
 
 const fieldDictionary: IReqQuery = {
   precio_max: "precio <=",
@@ -8,12 +8,9 @@ const fieldDictionary: IReqQuery = {
   categoria: "categoria =",
 };
 
-
 const dictionaryKeys = Object.keys(fieldDictionary);
 
-
 type test = string | number;
-
 
 const createFilteredQuery = async (entity: string, filters: IReqQuery) => {
   const table = entity.toLowerCase();

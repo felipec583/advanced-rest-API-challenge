@@ -1,4 +1,4 @@
-import { ControllerType, IReqQuery } from "../types";
+import { ControllerType, IReqQuery } from "../types/types";
 import * as jewelryModel from "../models/jewelryModels.js";
 import { RequestError } from "../helpers/error.js";
 import prepareHateoas from "../helpers/hateoas.js";
@@ -8,7 +8,7 @@ const getJewelry: ControllerType = async (req, res, next) => {
   try {
     const reqQuery = req.query;
     const data = await jewelryModel.getLimited(reqQuery);
-    
+
     // Preparar vínculos HATEOAS
     const hateoasDesign = await prepareHateoas(data);
 

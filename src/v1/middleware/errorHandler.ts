@@ -1,4 +1,4 @@
-import { ErrorHandlerT } from "../types";
+import { ErrorHandlerT } from "../types/types";
 import { RequestError, createPgError } from "../helpers/error.js";
 
 const errorHandler: ErrorHandlerT = (err, req, res, next) => {

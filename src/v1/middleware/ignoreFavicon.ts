@@ -1,4 +1,4 @@
-import { Middleware } from "../types";
+import { Middleware } from "../types/types";
 
 const ignoreFavicon: Middleware = (req, res, next) => {
   if (req.originalUrl.includes("favicon.ico")) {
