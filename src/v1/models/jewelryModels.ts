@@ -1,9 +1,10 @@
 import pool from "../config/database.js";
 import format from "pg-format";
-import { FilterParams, IReqQuery } from "../types.js";
+import { FilterParams } from "../types.js";
 import createFilteredQuery from "../helpers/filter.js";
 import { RequestError } from "../helpers/error.js";
 
+// Obtener registros limitados con paginación y ordenamiento
 const getLimited = async ({ limits = 3, page = 1, order_by = "id asc" }) => {
   let offset = (page - 1) * limits;
 
@@ -22,7 +23,8 @@ const getLimited = async ({ limits = 3, page = 1, order_by = "id asc" }) => {
   return rows;
 };
 
-const getFilered = async ({ ...filter }: FilterParams) => {
+// Obtener registros filtrados
+const getFiltered = async ({ ...filter }: FilterParams) => {
   const { query, values } = await createFilteredQuery("inventario", filter);
   const sqlQuery = {
     text: query,
@@ -32,6 +34,7 @@ const getFilered = async ({ ...filter }: FilterParams) => {
   return rows;
 };
 
+// Obtener un solo registro por su ID
 const getOne = async (id: string) => {
   const sqlQuery = {
     text: "SELECT * from inventario WHERE id = $1",
@@ -41,4 +44,4 @@ const getOne = async (id: string) => {
   if (res.rowCount === 0) throw new RequestError(404, "ID not found");
   return res.rows[0];
 };
-export { getFilered, getLimited, getOne };
+export { getFiltered, getLimited, getOne };
