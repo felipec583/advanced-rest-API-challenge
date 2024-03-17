@@ -1,4 +1,4 @@
-import { JewelryStockI } from "../types";
+import { JewelryStockI } from "../types/types";
 
 const prepareHateoas = async (data: JewelryStockI[]) => {
   const results = data.map((jewelry) => {

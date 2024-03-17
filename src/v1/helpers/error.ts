@@ -1,4 +1,4 @@
-import { errorCont } from "../types";
+import { errorCont } from "../types/types";
 
 class RequestError extends Error {
   constructor(
@@ -13,8 +13,6 @@ class RequestError extends Error {
     Object.setPrototypeOf(this, RequestError.prototype);
   }
 }
-
-
 
 class PgError extends RequestError {
   private readonly psqlErrors: Map<string | undefined, errorCont> = new Map([

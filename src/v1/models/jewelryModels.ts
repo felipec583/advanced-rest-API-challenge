@@ -1,6 +1,6 @@
 import pool from "../config/database.js";
 import format from "pg-format";
-import { FilterParams } from "../types.js";
+import { FilterParams } from "../types/types.js";
 import createFilteredQuery from "../helpers/filter.js";
 import { RequestError } from "../helpers/error.js";
 
