@@ -1,0 +1,44 @@
+
+Started GET / for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 12:44:09 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [83060d91-836c-446f-8e80-087b15b852c4]
+
+Started GET /filtros for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 12:44:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 1 ms Request ID: [58f1067f-d5cf-44b9-84c6-ce132ff24f83]
+
+Started GET /filtros for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 12:51:29 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 4 ms Request ID: [fa80de10-8ba3-47bf-9b5f-7c31b8a35fdb]
+
+Started GET / for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 14:05:51 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [98957bbc-eab9-4e2c-85fc-7b91adbde57f]
+
+Started GET / for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 14:06:05 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 1 ms Request ID: [b2c0427d-1cbc-4c12-8a10-b4de341f3ee7]
+
+Started GET / for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 15:41:07 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 4 ms Request ID: [9dc35008-5e7d-441e-aa5f-9fb99f229616]
+
+Started GET /joyas for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 15:41:18 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 29 ms Request ID: [4d4a00c0-0bf3-4ef7-834f-a701e3aacba9]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 15:42:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 28 ms Request ID: [84000e6a-18c1-4e81-aad0-17d2f9ff4187]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 16:01:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 8 ms Request ID: [122ffe08-6611-4ad5-b468-28d326a9e616]
+
+Started GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria%20=aros&metal=plata for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 16:21:43 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 33 ms Request ID: [f96f8f10-b892-4333-845f-3ad0ad1dc3a7]
+
+Started GET /joyas/filtros for :: ::ffff:127.0.0.1 at Sun Mar 17 2024 16:21:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 2 ms Request ID: [56c5f141-66c4-4045-aa11-c8a1080ad5c1]
